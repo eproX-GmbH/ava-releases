@@ -19,7 +19,6 @@ Bedient wird AVA über einen Chat-Agenten mit rund 250 Werkzeugen, über die Fir
 - [Architektur](#architektur)
 - [Auslieferung](#auslieferung)
 - [Sicherheit und Datenschutz](#sicherheit-und-datenschutz)
-- [Roadmap](#roadmap)
 - [Lizenz](#lizenz)
 
 ## Download
@@ -124,17 +123,6 @@ Der Desktop-Release entsteht aus einem Tag `v0.1.X` über GitHub Actions: macOS 
 - Hintergrund-Browser sind gehärtet: keine Downloads außer den amtlichen Registerdateien (XML, Gesellschafterlisten als PDF/TIFF, geprüft an den Magic Bytes, nach dem Lesen gelöscht), keine Web-Berechtigungen, Producer nur auf Loopback.
 - Personendaten: Ansprechpartner mit Herkunftsnachweis, Art.-14-Hinweis und Löschfunktion; Aufbewahrungsfristen per Cron; Geburtsdaten aus Gesellschafterlisten nur als Jahr nach außen, intern mit Hash für eine spätere Entfernung.
 - Alle Ausgaben von Modellen und externen Quellen werden vor der Übernahme gegen Schemata geprüft (Yup). „Lieber keine Daten als falsche Daten“ ist Regel, nicht Ausnahme.
-
-## Roadmap
-
-- **Verflechtungen abschließen:** Ende-zu-Ende-Test, Backfill der Adressen für den Bestand, Adressen aus AT/UK.
-- **Workflows ohne laufende App**: Zeitpläne, die auch bei geschlossener App laufen.
-- **Enterprise-Freigabe**: SSO-Anbindung an Kundenverzeichnisse, Datenresidenz, Auftragsverarbeitung, Protokollexport.
-- **Weitere CRM-Systeme** neben HubSpot (Salesforce, Dynamics), perspektivisch bidirektional.
-- **Schweiz** als viertes Land, sobald die Registerquelle belastbar ist.
-- **Zeitreihen und Benchmarks** aus den Jahresabschluss-Blöcken.
-
-> Wünsche und Lücken: [info@eprox-gmbh.de](mailto:info@eprox-gmbh.de).
 
 ## Lizenz
 
